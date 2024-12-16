@@ -12,3 +12,4 @@ PUBLIC_DNS_NAME=$(aws ec2 describe-instances --instance-ids "i-08393424829b3ecc7
 # Connect to the instance via SSH
 ssh -i "elk.pem" ec2-user@$PUBLIC_DNS_NAME
 
+
